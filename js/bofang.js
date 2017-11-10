@@ -24,7 +24,7 @@ window.onload = function () {
         var u=setInterval(function(){ 
          url.style[a[b%2]]=(b++)%4<2?0:4; 
          if(b>25){clearInterval(u);b=0} 
-         },15) 
+         },30) 
 		}
       }
     }
