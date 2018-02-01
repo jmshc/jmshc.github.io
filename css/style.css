@@ -3,7 +3,12 @@ body {
   font-size: 1.25rem;
   line-height: 1.5;
 }
+html{
+ height:100%;
+ width: 100%;
+}
 .container {
+  width: 90%;
   max-width: 960px;
   margin: 0 auto;
 }
@@ -58,3 +63,128 @@ body {
 .posts .post-meta {
   color: #bababa;
 }
+.login{
+width:1200px;
+position: relative;
+left: calc((100% - 1200px)/2);
+height:100%;
+overflow: hidden;
+padding-top: 30px;
+background: url(../images/timga.jpg)
+}
+.login .main-h{
+  margin: 20px 0 35px 0;
+}
+.main-col{
+    position: relative;
+    width: 300px;
+    left:calc((100% - 300px)/2);
+    height: 45px;
+    margin: 10px 0;
+    border: 1px solid #9da8a8;
+    border-radius:10px;
+    line-height: 36px;
+    background: #ccc;
+    padding: 0;
+}
+.main-col img{
+  margin-right: 10px
+}
+input{
+   outline:none;
+}
+.main-col input{
+  width: 250px;
+  background: #ccc;
+border:0;
+text-decoration:none;
+ outline:none;
+}
+.verification{
+  width: 150px;
+  height: 45px;
+  line-height: 36px;
+  padding: 0;
+  padding-left: 10px;
+  border: 1px solid #9da8a8;
+    border-radius:10px;
+}
+.main span{
+  display: inline-block;
+  width: 100px;
+  height:45px;
+  line-height: 36px;
+  padding: 0;
+  margin-left: 50px;
+
+}
+.main .v-bg{
+background:url(../images/v_bg.png);
+font-weight: 600;
+font-size: 20px;
+color:#fff;
+}
+.main-col button{
+  background: #ccc;
+  border:0;
+}
+.main p{
+  padding-left: 200px;
+  margin-top: 10px;
+  color:#00d2db;
+}
+a{
+  color: #337ab7;
+    text-decoration: none;
+    padding: 10px 0;
+    display: block;
+}
+.login-page {
+    width: 45%;
+    padding: 8% 0 0;
+    margin: auto;
+    min-width: 320px;
+}
+ .shake_effect{
+            -webkit-animation-name: shake;
+            animation-name: shake;
+            -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+        }
+        @-webkit-keyframes shake {
+          from, to {
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+          }
+
+          10%, 30%, 50%, 70%, 90% {
+            -webkit-transform: translate3d(-10px, 0, 0);
+            transform: translate3d(-10px, 0, 0);
+          }
+
+          20%, 40%, 60%, 80% {
+            -webkit-transform: translate3d(10px, 0, 0);
+            transform: translate3d(10px, 0, 0);
+          }
+        }
+
+        @keyframes shake {
+          from, to {
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+          }
+
+          10%, 30%, 50%, 70%, 90% {
+            -webkit-transform: translate3d(-10px, 0, 0);
+            transform: translate3d(-10px, 0, 0);
+          }
+
+          20%, 40%, 60%, 80% {
+            -webkit-transform: translate3d(10px, 0, 0);
+            transform: translate3d(10px, 0, 0);
+          }
+        }
+        .row-play{
+            position: relative;
+            display: block;
+        }
